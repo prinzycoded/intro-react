@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import './App.css'
-import reactLogo from './assets/react.svg'
-import heroImg from './assets/hero.png'
-import Header from './assets/header'
-import Profile from './assets/profile'
-import Footer from './assets/footer'
+import Header from './component/Header.jsx'
+import Profile from './component/Profile.card.jsx'
+import Skills from './component/Skills.jsx'
+import Footer from './component/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +13,7 @@ function App() {
       <main>
         <Profile />
       </main>
+        <Skills />
       <Footer />
     </>
   )
