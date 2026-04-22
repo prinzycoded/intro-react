@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <header className="bg-gray-800 text-5xl text-white p-4">
-            <h1 className="text-2xl font-bold" justify-content="center">Rad5 Tech Hub</h1>
-            <p className="text-lg" justify-content="center">creating innovative solutions for the digital world</p>
+        <header className="bg-blue-500 text-5xl text-yellow-300 p-4 justify-items-center">
+            <h1 className="text-2xl font-bold text-center">Rad5 Tech Hub</h1>
+            <p className="text-lg text-center ">creating innovative solutions for the digital world</p>
         </header>
     )
 }
